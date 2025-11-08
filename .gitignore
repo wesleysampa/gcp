@@ -1,0 +1,28 @@
+# Configurações do VS Code
+.vscode/
+
+# Logs de sistemas operacionais
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Arquivos de estado do Terraform (CRÍTICO)
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*.\#*
+
+# Arquivos de pacotes ou builds de Node/Python (se aplicável)
+node_modules
+dist/
+venv/
+__pycache__/
+
+# Arquivos de configurações sensíveis (Se houver)
+# .env
+# .local
